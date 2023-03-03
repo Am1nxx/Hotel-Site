@@ -1,0 +1,27 @@
+.blog-img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("bg-2.jpeg");
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog-img h1 {
+  font-size: 5rem;
+  color: var(--color8);
+}
+.col-blog {
+  padding: 25px;
+}
+.blog-image {
+  flex: 40%;
+}
+.blog-content {
+  flex: 60%;
+}
+.blog-about {
+  padding: 30px;
+}

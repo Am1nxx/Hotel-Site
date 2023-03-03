@@ -1,0 +1,43 @@
+:root {
+  --color1: #007bff;
+  --color2: #6c757d;
+  --color3: #28a745;
+  --color4: #dc3545;
+  --color5: #ffc107;
+  --color6: #17a2b8;
+  --color7: #343a40;
+  --color8: #f8f9fa;
+  --color9: #e6ffff;
+}
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color1);
+  color: var(--color8);
+}
+
+.btn:hover {
+  opacity: 0.6;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+.btn2 {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--color2);
+  color: var(--color8);
+}
+.btn2:hover:hover {
+  opacity: 0.6;
+}
+
